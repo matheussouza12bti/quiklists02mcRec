@@ -174,3 +174,23 @@ main {
     }
 }
 
+.warning {
+   background: var(--color-danger);
+   color: var(--always-white);
+   padding: 1.2rem;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 1.2rem;
+   margin-top: 2.4rem;
+
+
+   opacity: 1;
+   transition: opacty .4s ease, transform .4s ease;
+
+   div {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+   }
+}
+
